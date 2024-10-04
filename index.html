@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>D3 Setup</title>
+    </head>
+    <body>
+        <h1 id="headerID">Mohsin Malik CP321 Project</h1>
+        <h1 id="headerID2">Click any country for further covid data!</h1>
+        <!-- Add 2 buttons -->
+        <button onclick="zoomNa()">NA zoom</button>
+        <button onclick="zoomSa()">SA zoom</button>
+        <button onclick="zoomDef()">Default zoom</button>
+        
+        <div>
+            <svg class="Choropleth-map", id="svg1"></svg>
+            <svg class="Country-data", id="svg2"></svg>
+            <svg class="Death-data", id="svg5"></svg>
+            <svg class="CasesPercent-data", id="svg3"></svg>
+            <svg class="DeathPercent-data", id="svg4"></svg>
+            
+            
+        </div>
+
+        
+
+
+        
+        <!--button onclick="hide(hideLIT)">hide LIT</button-->
+        <!--script src="https://d3js.org/d3.v7.min.js"></script-->
+        <script src= "https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.8/d3.min.js"></script>
+        <!--script src= "https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script-->
+
+
+
+
+        <script src="tasks.js"></script>
+
+
+    </body>
+</html>
